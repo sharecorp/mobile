@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <h2 class="center">Product Lines</h2>
+  </ion-navbar>
+  <div class="gold-bar"></div>
+</ion-header>
+
+<ion-content padding class="product-lines">
+  <ion-list>
+    <button ion-item detail-none (click)="getProductLine('assets/data/imgs/' + productLine?.productLinePDF)" *ngFor="let productLine of productLines | orderby | filter : filterQuery">
+      <img [src]="'assets/data/imgs/' + productLine?.filepath" />
+      {{productLine.title}}
+      </button>
+  </ion-list>
+</ion-content>

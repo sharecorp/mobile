@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        {{fetchedProduct?.title}}
+      </ion-card-title>
+    </ion-card-header>
+    <object data="'assets/data/imgs/' + fetchedProduct?.filepath" type="image/jpg">
+      <img [src]="'assets/data/imgs/' + fetchedProduct?.filepath" onerror="this.src = 'assets/imgs/no-image.png'" />
+    </object>
+    <ion-card-content>
+      <div [innerHTML]="fetchedProduct?.body"></div>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card [hidden]="!fetchedProduct?.safetyLabel && !fetchedProduct?.productLabel && !fetchedProduct?.specLabel">
+    <ion-card-content>
+      <ion-card-header>
+        <h2>Additional information</h2>
+      </ion-card-header>
+      <ion-list>
+        <ion-item [hidden]="!fetchedProduct?.safetyLabel" (click)="viewPdf('assets/data/imgs/' + fetchedProduct?.safetyLabel)">
+          <ion-icon name="warning" item-start></ion-icon>
+          Safety Data Sheet
+        </ion-item>
+
+        <ion-item [hidden]="!fetchedProduct?.productLabel" (click)="viewPdf('assets/data/imgs/' + fetchedProduct?.productLabel)">
+          <ion-icon name="image" item-start></ion-icon>
+          Product Label
+        </ion-item>
+
+        <ion-item [hidden]="!fetchedProduct?.specLabel" (click)="viewPdf('assets/data/imgs/' + fetchedProduct?.specLabel)">
+          <ion-icon name="clipboard" item-start></ion-icon>
+          Product Specs
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- <div text-center>
+    <button ion-button round (click)="getAQuote()">Get a Quote!</button>
+  </div> -->
+
+  <ion-card>
+    <ion-card-content>
+      <p class="legal">
+        LEGAL STATEMENT :
+        <br> Every effort has been made to ensure the accuracy and completeness of the electronic documents and resources provided
+        on this web site. However, Share Corporation makes no warranties, expressed or implied, regarding errors or omissions
+        and assumes no legal liability or responsibility for loss or damage resulting from the use of information contained
+        within. Any pesticide information (e.g. herbicides, insecticides, disinfectants, etc.) found on this site is for
+        informational purposes only and does not constitute an offer for sale of the products with those labels. Please read
+        the actual pesticide label on the container prior to use. The information contained at this web site is not a substitute
+        for a pesticide label.
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

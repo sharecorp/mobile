@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <h2 class="center">All Products</h2>
+  </ion-navbar>
+  <ion-searchbar class="bordered-input" type="text" [(ngModel)]="filterQuery" name="Product Filter" placeholder="Filter Products"></ion-searchbar>
+  <div class="gold-bar"></div>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <button ion-item (click)="goToProduct(product)" *ngFor="let product of productList | orderby | filter : filterQuery">{{product.title}}</button>
+  </ion-list>
+</ion-content>

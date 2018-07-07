@@ -1,0 +1,50 @@
+<ion-header>
+  <div class="haircut white center"> MON - FRI: 8:00am - 4:30pm (CST) | 1.800.776.7192 </div>
+  <ion-navbar>
+    <img class="share-branding" src="assets/imgs/sharecorp.png" />
+  </ion-navbar>
+  <div class="blue-bar"></div>
+  <div class="gold-bar"></div>
+</ion-header>
+
+<ion-content>
+
+  <ion-slides pager>
+
+    <ion-slide class="forty-five">
+      <h3 class="center">
+        CHEMICAL ENGINEERING SPECIALISTS DEDICATED TO QUALITY & SERVICE FOR 45 YEARS
+      </h3>      
+      <p class="center">For 45 years Share Corporation has been solving maintenance problems for hundreds of thousands customers nationwide.
+        Our outstanding expansive product offering coupled with the very best service in the industry has been and will continue
+        to be the winning formula for all of our customers.
+      </p>
+    </ion-slide>
+
+    <ion-slide class="share-staff">
+      <img src="assets/data/imgs/us.jpg" />
+    </ion-slide>
+
+    <ion-slide class="wosb">
+      <img src="assets/data/imgs/wosb.jpg" />
+    </ion-slide>
+
+  </ion-slides>
+
+  <ion-grid>
+    <ion-row class="categories">
+      <ion-col [ngClass]="{'clicked': category.clicked}" col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3 *ngFor="let category of categoryList">
+        <a>
+          <img (click)="categoryClick(category)" [src]="'assets/data/imgs/' + category.imageReference?.filename" />
+          <h2 (click)="categoryClick(category)">{{category.name}}</h2>
+          <ul class="subcategory-products">
+            <li (click)="goToProduct(subProduct)" *ngFor="let subProduct of category?.subCategory">
+              {{subProduct?.title}}
+            </li>
+          </ul>
+        </a>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
