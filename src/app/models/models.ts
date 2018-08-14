@@ -8,6 +8,7 @@ export interface Product {
     status: string;
     sticky: string;
     body?: string;
+    safeEmailBody? : string;
     safetyLabel?: string;
     productLabel?: string;
     productLine?: string;    

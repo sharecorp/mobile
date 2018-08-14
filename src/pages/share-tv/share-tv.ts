@@ -20,7 +20,6 @@ export class ShareTv {
   ngOnInit() {
     this.shareService.getShareTvList().subscribe((res) => {
       this.shareTvList = res;
-      console.error(this.shareTvList)
     });
   };
 

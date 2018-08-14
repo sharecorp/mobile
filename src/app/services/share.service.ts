@@ -54,13 +54,13 @@ export class ShareService {
     private raw_Categories: Category[];
 
     private productLineLink: Subject<any[]> = new Subject();
-    private raw_productLineLink: any[]; 
+    private raw_productLineLink: any[];
 
     private shareTv: Subject<VideoLink[]> = new Subject();
     private raw_shareTv: VideoLink[];
 
     private shareTvLegacy: Subject<VideoLink[]> = new Subject();
-    private raw_shareTvLegacy: VideoLink[];    
+    private raw_shareTvLegacy: VideoLink[];
 
     private shareTvUrl: Subject<any[]> = new Subject();
     private raw_shareTvUrl: any[];
@@ -88,9 +88,9 @@ export class ShareService {
         // swap path url based on environment
         if (this.platform.is('cordova') && this.platform.is('android')) {
             this.url = "/android_asset/www/";
-        } else if (this.platform.is('cordova') && this.platform.is('ios')){
+        } else if (this.platform.is('cordova') && this.platform.is('ios')) {
             this.url = 'http://localhost:8100/bundle/www/';
-        }else {
+        } else {
             this.url = 'assets/data/';
         }
 
@@ -103,30 +103,30 @@ export class ShareService {
 
         // get products
         var products = node
-                .filter(p => p.type == "products" && p.status == 1)
-                // sort a > z
-                .sort((a, b) => {
-                    if (a.title < b.title) return -1;
-                    if (a.title > b.title) return 1;
-                    return 0;
-                });
+            .filter(p => p.type == "products" && p.status == 1)
+            // sort a > z
+            .sort((a, b) => {
+                if (a.title < b.title) return -1;
+                if (a.title > b.title) return 1;
+                return 0;
+            });
         this.raw_products = products;
         this.products.next(products);
-        
+
         // get product lines
-       var productLines = node.filter(p => p.type == "product_lines" && p.status == 1)
-                .sort((a, b) => {
-                    if (a.title < b.title) return -1;
-                    if (a.title > b.title) return 1;
-                    return 0;
-                })
+        var productLines = node.filter(p => p.type == "product_lines" && p.status == 1)
+            .sort((a, b) => {
+                if (a.title < b.title) return -1;
+                if (a.title > b.title) return 1;
+                return 0;
+            })
         this.raw_productLines = productLines;
         this.productLines.next(productLines);
 
         // get share tv
         this.raw_shareTv = videoUrl;
         this.shareTv.next(videoUrl);
-            
+
 
         // get legacy share tv
         this.raw_shareTvLegacy = shareCorpTv;
@@ -135,11 +135,11 @@ export class ShareService {
         // get sharetv vid urls
         this.raw_shareTv = videoUrl;
         this.shareTv.next(videoUrl);
-            
+
         // get sharetv vid urls
         this.raw_shareTvUrl = shareCorpTv;
         this.shareTvUrl.next(shareCorpTv);
-            
+
         // get product line links
         this.raw_productLineLink = fieldLink;
         this.productLineLink.next(fieldLink);
@@ -204,7 +204,7 @@ export class ShareService {
 
     getProductLines(): Observable<Product[]> {
         var productLineIds = this.raw_productLines.map(pl => pl.nid);
-        
+
         // GET ONLY ACTIVE PRODUCT LINKS
         var activeProductLineEntityIds = this.raw_productLineLink.map(pl => pl.entity_id);
         this.raw_productLines = this.raw_productLines.filter(pl => activeProductLineEntityIds.includes(pl.nid));
@@ -215,12 +215,12 @@ export class ShareService {
 
         this.raw_productLines.forEach(pl => {
             pl.productLine = this.getProductLineLabelImage(pl.nid);
-        });   
+        });
 
         this.raw_productLines.forEach(pl => {
             pl.productLinePDF = this.getProductLineLabelPDF(pl.nid);
-        });   
-        
+        });
+
         return new Observable<Product[]>(observer => {
             observer.next(this.raw_productLines);
         });
@@ -259,8 +259,17 @@ export class ShareService {
         });
 
         // combine the two lists
-        videos = videos.concat(videosLegacy);
-
+        videos = Array.from(new Set(videos.concat(videosLegacy)))
+            .sort((a: any, b: any) => {
+                // sort by name
+                if (a.title < b.title) {
+                    return -1;
+                } else if (a.title > b.title) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            });
         return new Observable<Product[]>(observer => {
             observer.next(videos);
         });
@@ -274,7 +283,7 @@ export class ShareService {
 
 
     getProductLineLabelPDF(id): string {
-        if(this.raw_productLineLink.find(p => p.entity_id == id)){
+        if (this.raw_productLineLink.find(p => p.entity_id == id)) {
             let productLineLink = this.raw_productLineLink.find(p => p.entity_id == id).field_link_url;
             return productLineLink.substr(productLineLink.lastIndexOf('/') + 1);
         }
@@ -347,19 +356,19 @@ export class ShareService {
 
     getCategories(): Observable<Category[]> {
 
-            // file paths
-            this.raw_Categories = taxoTerm.filter(c => c.vid == 2);
-            this.raw_CategoriesImg = catImage;
-            let images = files;
+        // file paths
+        this.raw_Categories = taxoTerm.filter(c => c.vid == 2);
+        this.raw_CategoriesImg = catImage;
+        let images = files;
 
-                this.raw_Categories.forEach(category => {
-                    let imagePath = this.raw_CategoriesImg.find(categoryImage => categoryImage.entity_id == category.tid);
-                    if (imagePath) {
-                        category.imageId = imagePath.field_category_image_fid || '';
-                    }
-                    category.imageReference = images.find(image => image.fid == category.imageId);
-                });
-            this.categories.next(this.raw_Categories);
+        this.raw_Categories.forEach(category => {
+            let imagePath = this.raw_CategoriesImg.find(categoryImage => categoryImage.entity_id == category.tid);
+            if (imagePath) {
+                category.imageId = imagePath.field_category_image_fid || '';
+            }
+            category.imageReference = images.find(image => image.fid == category.imageId);
+        });
+        this.categories.next(this.raw_Categories);
         return this.categories.asObservable();
     }
 }

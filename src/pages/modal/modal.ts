@@ -19,11 +19,10 @@ export class ModalPage {
   private productImage: string;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController, public modalCtrl: ModalController) {
-    console.error(this);
   }
 
   ionViewDidLoad() {
-    this.productImage = this.navParams.data.filepath;
+    this.productImage = this.navParams.data.product.filepath;
   }
 
   public closeModal() {

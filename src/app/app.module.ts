@@ -1,15 +1,15 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { StreamingMedia, StreamingVideoOptions } from '@ionic-native/streaming-media';
+import { StreamingMedia } from '@ionic-native/streaming-media';
 import { MyApp } from './app.component';
 import { HttpModule } from '@angular/http';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { ShareService } from './services/share.service';
-import { DataPrepService } from './services/data-prep.service';
 
 import { ProductList } from '../pages/product-list/product-list';
 import { ShareTv } from '../pages/share-tv/share-tv';
+import { ModalPage } from '../pages/modal/modal';
 import { HomePage } from '../pages/home/home';
 import { ProductLines } from '../pages/product-lines/product-lines';
 import { ProductView } from '../pages/product-view/product-view';
@@ -29,6 +29,7 @@ import { DocumentViewer } from '@ionic-native/document-viewer';
     ProductList,
     ShareTv,
     HomePage,
+    ModalPage,
     TabsPage,
     ProductLines,
     ProductView,
@@ -47,12 +48,12 @@ import { DocumentViewer } from '@ionic-native/document-viewer';
     ShareTv,
     HomePage,
     ProductView,
+    ModalPage,
     ProductLines,
     TabsPage
   ],
   providers: [
     StatusBar,
-    DataPrepService,
     ShareService,
     InAppBrowser,
     SplashScreen,

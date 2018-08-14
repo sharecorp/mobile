@@ -12,14 +12,14 @@
         {{fetchedProduct?.title}}
       </ion-card-title>
     </ion-card-header>
-    <object data="'assets/data/imgs/' + fetchedProduct?.filepath" type="image/jpg">
+    <object data="'assets/data/imgs/' + fetchedProduct?.filepath" type="image/jpg" (click)="enlargePicture()">
       <img [src]="'assets/data/imgs/' + fetchedProduct?.filepath" onerror="this.src = 'assets/imgs/no-image.png'" />
     </object>
     <ion-card-content>
       <div [innerHTML]="fetchedProduct?.body"></div>
     </ion-card-content>
   </ion-card>
-  
+
   <ion-card [hidden]="!fetchedProduct?.safetyLabel && !fetchedProduct?.productLabel && !fetchedProduct?.specLabel">
     <ion-card-content>
       <ion-card-header>
@@ -44,9 +44,15 @@
     </ion-card-content>
   </ion-card>
 
-  <!-- <div text-center>
-    <button ion-button round (click)="getAQuote()">Get a Quote!</button>
-  </div> -->
+  <ion-card>
+    <ion-card-content style="text-align: center;">
+        <div class="form-group">
+          <input [(ngModel)]="emailName" placeholder="Name" type="text" style="display:block; width:100%;" />
+          <input [(ngModel)]="emailAddress" placeholder="Email address" type="text" style="display:block; width:100%;" />
+          <a ion-button round [attr.disabled]="emailAddress ? null : ''" href="{{parsedEmailToLink()}}">Email</a>
+        </div>
+    </ion-card-content>
+  </ion-card>
 
   <ion-card>
     <ion-card-content>
