@@ -1,44 +1,58 @@
 page-modal {
-//Helper
-.helper-zoom-container {
-    width: 100%;
-    height: 100%;
-  }
-  //Fullscreen modal
-  .modal-fullscreen {
-    width: 100%;
-    height: 100%;
-    min-height: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-radius: 0;
-    .row {
-      height: 100%;
-      padding: 20px;
-    }
-    @media screen and (orientation: landscape) {
-      .col {
+    //Helper
+    .helper-zoom-container {
+        width: 100%;
         height: 100%;
-      }
     }
-  }
-  //Fullscreen image
-  .img-fullscreen {
-    display: block;
-    @media only screen and (orientation: landscape) {
-      width: auto;
-      max-height: 100%;
+
+    //Fullscreen modal
+    .modal-fullscreen {
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 0;
+
+        .row {
+            height: 100%;
+            padding: 20px;
+        }
+
+        @media screen and (orientation: landscape) {
+            .col {
+                height: 100%;
+            }
+        }
     }
-    @media only screen and (orientation: portrait) {
-      max-width: 100%;
-      height: auto;
+
+    //Fullscreen image
+    .img-fullscreen {
+        display: block;
+
+        @media only screen and (orientation: landscape) {
+            width: auto;
+            max-height: 100%;
+        }
+
+        @media only screen and (orientation: portrait) {
+            max-width: 100%;
+            height: auto;
+        }
     }
-  }
-  //Center image
-  .img-center {
-    margin: 0 auto;
-    display: block;
-  }
+
+    //Center image
+    .img-center {
+        margin: 0 auto;
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+}
+
+.scroll-zoom-wrapper
+.scroll-content div {
+    height: 100% !important;
 }

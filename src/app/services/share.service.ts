@@ -127,7 +127,6 @@ export class ShareService {
         this.raw_shareTv = videoUrl;
         this.shareTv.next(videoUrl);
 
-
         // get legacy share tv
         this.raw_shareTvLegacy = shareCorpTv;
         this.shareTvLegacy.next(shareCorpTv);
