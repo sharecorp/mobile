@@ -12,7 +12,7 @@ log.txt
 .vscode/
 npm-debug.log*
 src/assets/data/*
-src/assets/videos/*
+src/assets/
 .idea/
 .sourcemaps/
 .sass-cache/
