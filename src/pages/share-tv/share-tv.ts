@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
-import { ShareService } from '../../app/services/share.service';
-import { Product } from '../../app/models/models';
-import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { Component } from "@angular/core";
+import { NavController } from "ionic-angular";
+import { ShareService } from "../../app/services/share.service";
+import { Product } from "../../app/models/models";
+import { InAppBrowser } from "@ionic-native/in-app-browser";
 
 @Component({
-  selector: 'page-contact',
-  templateUrl: 'share-tv.html'
+  selector: "page-contact",
+  templateUrl: "share-tv.html"
 })
 export class ShareTv {
   // the list of share tv videos
@@ -14,20 +14,18 @@ export class ShareTv {
   constructor(
     public navCtrl: NavController,
     public shareService: ShareService,
-    private inAppBrowser: InAppBrowser) {
-  }
+    private inAppBrowser: InAppBrowser
+  ) {}
 
   ngOnInit() {
-    this.shareService.getShareTvList().subscribe((res) => {
+    this.shareService.getShareTvList().subscribe(res => {
       this.shareTvList = res;
     });
-  };
+  }
 
   // load video on click
   loadVideo(video): void {
-    this.inAppBrowser.create(video, '_system');
+    console.error(video);
+    this.inAppBrowser.create(video, "_system");
   }
 }
-
-
-
