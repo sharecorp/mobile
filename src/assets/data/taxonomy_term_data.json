@@ -184,14 +184,6 @@
     "weight": "0"
   },
   {
-    "tid": "24",
-    "vid": "2",
-    "name": "Warewash/Laundry",
-    "description": "",
-    "format": "filtered_html",
-    "weight": "0"
-  },
-  {
     "tid": "25",
     "vid": "2",
     "name": "Water Treatment",

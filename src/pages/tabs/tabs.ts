@@ -13,7 +13,6 @@ export class TabsPage {
 
   tab1Root = HomePage;
   tab2Root = ProductList;
-  tab3Root = ShareTv;
   tab4Root = ProductLines;
 
   constructor() {
