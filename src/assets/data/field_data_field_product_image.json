@@ -413,11 +413,11 @@
     "revision_id": "84",
     "language": "und",
     "delta": "0",
-    "field_product_image_fid": "164",
+    "field_product_image_fid": "3381",
     "field_product_image_alt": "",
     "field_product_image_title": "",
-    "field_product_image_width": "720",
-    "field_product_image_height": "668"
+    "field_product_image_width": "1435",
+    "field_product_image_height": "1000"
   },
   {
     "entity_type": "node",
@@ -2513,11 +2513,11 @@
     "revision_id": "241",
     "language": "und",
     "delta": "0",
-    "field_product_image_fid": "477",
+    "field_product_image_fid": "3413",
     "field_product_image_alt": "",
     "field_product_image_title": "",
-    "field_product_image_width": "260",
-    "field_product_image_height": "189"
+    "field_product_image_width": "477",
+    "field_product_image_height": "1200"
   },
   {
     "entity_type": "node",
@@ -2779,11 +2779,11 @@
     "revision_id": "260",
     "language": "und",
     "delta": "0",
-    "field_product_image_fid": "512",
+    "field_product_image_fid": "3387",
     "field_product_image_alt": "",
     "field_product_image_title": "",
-    "field_product_image_width": "260",
-    "field_product_image_height": "195"
+    "field_product_image_width": "860",
+    "field_product_image_height": "1233"
   },
   {
     "entity_type": "node",
@@ -4436,20 +4436,6 @@
     "field_product_image_title": "",
     "field_product_image_width": "693",
     "field_product_image_height": "558"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "388",
-    "revision_id": "388",
-    "language": "und",
-    "delta": "0",
-    "field_product_image_fid": "2637",
-    "field_product_image_alt": "",
-    "field_product_image_title": "",
-    "field_product_image_width": "827",
-    "field_product_image_height": "579"
   },
   {
     "entity_type": "node",
@@ -9840,5 +9826,131 @@
     "field_product_image_title": "",
     "field_product_image_width": "864",
     "field_product_image_height": "720"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "818",
+    "revision_id": "818",
+    "language": "und",
+    "delta": "0",
+    "field_product_image_fid": "3401",
+    "field_product_image_alt": "",
+    "field_product_image_title": "",
+    "field_product_image_width": "1800",
+    "field_product_image_height": "1200"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "819",
+    "revision_id": "819",
+    "language": "und",
+    "delta": "0",
+    "field_product_image_fid": "3405",
+    "field_product_image_alt": "",
+    "field_product_image_title": "",
+    "field_product_image_width": "2400",
+    "field_product_image_height": "1800"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "820",
+    "revision_id": "820",
+    "language": "und",
+    "delta": "0",
+    "field_product_image_fid": "3409",
+    "field_product_image_alt": "",
+    "field_product_image_title": "",
+    "field_product_image_width": "1800",
+    "field_product_image_height": "1200"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "821",
+    "revision_id": "821",
+    "language": "und",
+    "delta": "0",
+    "field_product_image_fid": "3414",
+    "field_product_image_alt": "",
+    "field_product_image_title": "",
+    "field_product_image_width": "997",
+    "field_product_image_height": "1200"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "822",
+    "revision_id": "822",
+    "language": "und",
+    "delta": "0",
+    "field_product_image_fid": "3415",
+    "field_product_image_alt": "",
+    "field_product_image_title": "",
+    "field_product_image_width": "1500",
+    "field_product_image_height": "1090"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "823",
+    "revision_id": "823",
+    "language": "und",
+    "delta": "0",
+    "field_product_image_fid": "3418",
+    "field_product_image_alt": "",
+    "field_product_image_title": "",
+    "field_product_image_width": "1239",
+    "field_product_image_height": "1821"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "824",
+    "revision_id": "824",
+    "language": "und",
+    "delta": "0",
+    "field_product_image_fid": "3419",
+    "field_product_image_alt": "",
+    "field_product_image_title": "",
+    "field_product_image_width": "1500",
+    "field_product_image_height": "895"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "825",
+    "revision_id": "825",
+    "language": "und",
+    "delta": "0",
+    "field_product_image_fid": "3423",
+    "field_product_image_alt": "",
+    "field_product_image_title": "",
+    "field_product_image_width": "2100",
+    "field_product_image_height": "1500"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "826",
+    "revision_id": "826",
+    "language": "und",
+    "delta": "0",
+    "field_product_image_fid": "3425",
+    "field_product_image_alt": "",
+    "field_product_image_title": "",
+    "field_product_image_width": "2100",
+    "field_product_image_height": "1500"
   }
 ]

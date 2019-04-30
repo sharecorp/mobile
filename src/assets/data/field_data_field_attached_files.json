@@ -319,7 +319,7 @@
     "revision_id": "84",
     "language": "und",
     "delta": "0",
-    "field_attached_files_fid": "2510",
+    "field_attached_files_fid": "3383",
     "field_attached_files_display": "1",
     "field_attached_files_description": ""
   },
@@ -2108,18 +2108,6 @@
     "language": "und",
     "delta": "0",
     "field_attached_files_fid": "2450",
-    "field_attached_files_display": "1",
-    "field_attached_files_description": ""
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "388",
-    "revision_id": "388",
-    "language": "und",
-    "delta": "0",
-    "field_attached_files_fid": "923",
     "field_attached_files_display": "1",
     "field_attached_files_description": ""
   },
@@ -5720,6 +5708,66 @@
     "language": "und",
     "delta": "0",
     "field_attached_files_fid": "3035",
+    "field_attached_files_display": "1",
+    "field_attached_files_description": ""
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "818",
+    "revision_id": "818",
+    "language": "und",
+    "delta": "0",
+    "field_attached_files_fid": "3404",
+    "field_attached_files_display": "1",
+    "field_attached_files_description": ""
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "819",
+    "revision_id": "819",
+    "language": "und",
+    "delta": "0",
+    "field_attached_files_fid": "3406",
+    "field_attached_files_display": "1",
+    "field_attached_files_description": ""
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "820",
+    "revision_id": "820",
+    "language": "und",
+    "delta": "0",
+    "field_attached_files_fid": "3410",
+    "field_attached_files_display": "1",
+    "field_attached_files_description": ""
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "822",
+    "revision_id": "822",
+    "language": "und",
+    "delta": "0",
+    "field_attached_files_fid": "3416",
+    "field_attached_files_display": "1",
+    "field_attached_files_description": ""
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "824",
+    "revision_id": "824",
+    "language": "und",
+    "delta": "0",
+    "field_attached_files_fid": "3420",
     "field_attached_files_display": "1",
     "field_attached_files_description": ""
   }

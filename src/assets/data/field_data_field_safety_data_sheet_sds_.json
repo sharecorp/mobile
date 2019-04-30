@@ -319,7 +319,7 @@
     "revision_id": "84",
     "language": "und",
     "delta": "0",
-    "field_safety_data_sheet_sds__fid": "166",
+    "field_safety_data_sheet_sds__fid": "3382",
     "field_safety_data_sheet_sds__display": "1",
     "field_safety_data_sheet_sds__description": ""
   },
@@ -1891,7 +1891,7 @@
     "revision_id": "374",
     "language": "und",
     "delta": "0",
-    "field_safety_data_sheet_sds__fid": "869",
+    "field_safety_data_sheet_sds__fid": "3377",
     "field_safety_data_sheet_sds__display": "1",
     "field_safety_data_sheet_sds__description": ""
   },
@@ -2036,18 +2036,6 @@
     "language": "und",
     "delta": "0",
     "field_safety_data_sheet_sds__fid": "920",
-    "field_safety_data_sheet_sds__display": "1",
-    "field_safety_data_sheet_sds__description": ""
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "388",
-    "revision_id": "388",
-    "language": "und",
-    "delta": "0",
-    "field_safety_data_sheet_sds__fid": "924",
     "field_safety_data_sheet_sds__display": "1",
     "field_safety_data_sheet_sds__description": ""
   },
@@ -2959,7 +2947,7 @@
     "revision_id": "475",
     "language": "und",
     "delta": "0",
-    "field_safety_data_sheet_sds__fid": "2344",
+    "field_safety_data_sheet_sds__fid": "3421",
     "field_safety_data_sheet_sds__display": "1",
     "field_safety_data_sheet_sds__description": ""
   },
@@ -2971,7 +2959,7 @@
     "revision_id": "476",
     "language": "und",
     "delta": "0",
-    "field_safety_data_sheet_sds__fid": "1273",
+    "field_safety_data_sheet_sds__fid": "3422",
     "field_safety_data_sheet_sds__display": "1",
     "field_safety_data_sheet_sds__description": ""
   },
@@ -3427,7 +3415,7 @@
     "revision_id": "517",
     "language": "und",
     "delta": "0",
-    "field_safety_data_sheet_sds__fid": "1434",
+    "field_safety_data_sheet_sds__fid": "3399",
     "field_safety_data_sheet_sds__display": "1",
     "field_safety_data_sheet_sds__description": ""
   },
@@ -5696,6 +5684,66 @@
     "language": "und",
     "delta": "0",
     "field_safety_data_sheet_sds__fid": "3358",
+    "field_safety_data_sheet_sds__display": "1",
+    "field_safety_data_sheet_sds__description": ""
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "818",
+    "revision_id": "818",
+    "language": "und",
+    "delta": "0",
+    "field_safety_data_sheet_sds__fid": "3402",
+    "field_safety_data_sheet_sds__display": "1",
+    "field_safety_data_sheet_sds__description": ""
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "819",
+    "revision_id": "819",
+    "language": "und",
+    "delta": "0",
+    "field_safety_data_sheet_sds__fid": "3407",
+    "field_safety_data_sheet_sds__display": "1",
+    "field_safety_data_sheet_sds__description": ""
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "820",
+    "revision_id": "820",
+    "language": "und",
+    "delta": "0",
+    "field_safety_data_sheet_sds__fid": "3411",
+    "field_safety_data_sheet_sds__display": "1",
+    "field_safety_data_sheet_sds__description": ""
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "825",
+    "revision_id": "825",
+    "language": "und",
+    "delta": "0",
+    "field_safety_data_sheet_sds__fid": "3428",
+    "field_safety_data_sheet_sds__display": "1",
+    "field_safety_data_sheet_sds__description": ""
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "826",
+    "revision_id": "826",
+    "language": "und",
+    "delta": "0",
+    "field_safety_data_sheet_sds__fid": "3427",
     "field_safety_data_sheet_sds__display": "1",
     "field_safety_data_sheet_sds__description": ""
   }
