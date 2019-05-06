@@ -13,16 +13,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "22",
-    "revision_id": "22",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "1"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "23",
     "revision_id": "23",
     "language": "und",
@@ -143,16 +133,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "60",
-    "revision_id": "60",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "1"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "61",
     "revision_id": "61",
     "language": "und",
@@ -263,16 +243,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "75",
-    "revision_id": "75",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "2"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "78",
     "revision_id": "78",
     "language": "und",
@@ -333,16 +303,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "83",
-    "revision_id": "83",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "3"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "84",
     "revision_id": "84",
     "language": "und",
@@ -365,26 +325,6 @@
     "deleted": "0",
     "entity_id": "86",
     "revision_id": "86",
-    "language": "und",
-    "delta": "1",
-    "field_product_category_tid": "27"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "87",
-    "revision_id": "87",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "7"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "87",
-    "revision_id": "87",
     "language": "und",
     "delta": "1",
     "field_product_category_tid": "27"
@@ -435,26 +375,6 @@
     "deleted": "0",
     "entity_id": "91",
     "revision_id": "91",
-    "language": "und",
-    "delta": "1",
-    "field_product_category_tid": "27"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "92",
-    "revision_id": "92",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "10"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "92",
-    "revision_id": "92",
     "language": "und",
     "delta": "1",
     "field_product_category_tid": "27"
@@ -3003,16 +2923,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "332",
-    "revision_id": "332",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "14"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "333",
     "revision_id": "333",
     "language": "und",
@@ -3128,6 +3038,16 @@
     "language": "und",
     "delta": "0",
     "field_product_category_tid": "14"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "344",
+    "revision_id": "344",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "4"
   },
   {
     "entity_type": "node",
@@ -3523,16 +3443,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "385",
-    "revision_id": "385",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "5"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "386",
     "revision_id": "386",
     "language": "und",
@@ -3545,16 +3455,6 @@
     "deleted": "0",
     "entity_id": "387",
     "revision_id": "387",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "5"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "388",
-    "revision_id": "388",
     "language": "und",
     "delta": "0",
     "field_product_category_tid": "5"
@@ -3703,16 +3603,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "399",
-    "revision_id": "399",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "5"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "400",
     "revision_id": "400",
     "language": "und",
@@ -3735,16 +3625,6 @@
     "deleted": "0",
     "entity_id": "402",
     "revision_id": "402",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "10"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "403",
-    "revision_id": "403",
     "language": "und",
     "delta": "0",
     "field_product_category_tid": "10"
@@ -4118,16 +3998,6 @@
     "language": "und",
     "delta": "0",
     "field_product_category_tid": "17"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "436",
-    "revision_id": "436",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "6"
   },
   {
     "entity_type": "node",
@@ -4575,16 +4445,6 @@
     "deleted": "0",
     "entity_id": "480",
     "revision_id": "480",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "20"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "481",
-    "revision_id": "481",
     "language": "und",
     "delta": "0",
     "field_product_category_tid": "20"
@@ -5133,16 +4993,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "519",
-    "revision_id": "519",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "21"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "520",
     "revision_id": "520",
     "language": "und",
@@ -5453,16 +5303,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "545",
-    "revision_id": "545",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "6"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "546",
     "revision_id": "546",
     "language": "und",
@@ -5495,16 +5335,6 @@
     "deleted": "0",
     "entity_id": "549",
     "revision_id": "549",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "6"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "551",
-    "revision_id": "551",
     "language": "und",
     "delta": "0",
     "field_product_category_tid": "6"
@@ -5983,26 +5813,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "588",
-    "revision_id": "588",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "7"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "588",
-    "revision_id": "588",
-    "language": "und",
-    "delta": "1",
-    "field_product_category_tid": "21"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "589",
     "revision_id": "589",
     "language": "und",
@@ -6213,16 +6023,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "609",
-    "revision_id": "609",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "11"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "610",
     "revision_id": "610",
     "language": "und",
@@ -6255,16 +6055,6 @@
     "deleted": "0",
     "entity_id": "613",
     "revision_id": "613",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "18"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "614",
-    "revision_id": "614",
     "language": "und",
     "delta": "0",
     "field_product_category_tid": "18"
@@ -6803,16 +6593,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "659",
-    "revision_id": "659",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "10"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "660",
     "revision_id": "660",
     "language": "und",
@@ -6953,16 +6733,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "674",
-    "revision_id": "674",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "22"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "675",
     "revision_id": "675",
     "language": "und",
@@ -7035,16 +6805,6 @@
     "deleted": "0",
     "entity_id": "681",
     "revision_id": "681",
-    "language": "und",
-    "delta": "0",
-    "field_product_category_tid": "22"
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
-    "entity_id": "682",
-    "revision_id": "682",
     "language": "und",
     "delta": "0",
     "field_product_category_tid": "22"
@@ -8278,5 +8038,135 @@
     "language": "und",
     "delta": "0",
     "field_product_category_tid": "20"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "816",
+    "revision_id": "816",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "10"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "816",
+    "revision_id": "816",
+    "language": "und",
+    "delta": "1",
+    "field_product_category_tid": "27"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "817",
+    "revision_id": "817",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "14"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "818",
+    "revision_id": "818",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "4"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "818",
+    "revision_id": "818",
+    "language": "und",
+    "delta": "1",
+    "field_product_category_tid": "8"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "819",
+    "revision_id": "819",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "4"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "820",
+    "revision_id": "820",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "8"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "821",
+    "revision_id": "821",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "9"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "822",
+    "revision_id": "822",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "21"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "823",
+    "revision_id": "823",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "9"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "824",
+    "revision_id": "824",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "9"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "825",
+    "revision_id": "825",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "5"
+  },
+  {
+    "entity_type": "node",
+    "bundle": "products",
+    "deleted": "0",
+    "entity_id": "826",
+    "revision_id": "826",
+    "language": "und",
+    "delta": "0",
+    "field_product_category_tid": "5"
   }
 ]
