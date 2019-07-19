@@ -334,6 +334,7 @@ export class ShareService {
     }
 
     getImageFilePath(id): string {
+        console.error(id);
         return this.raw_files.find(f => f.fid == id).filename;
     }
 

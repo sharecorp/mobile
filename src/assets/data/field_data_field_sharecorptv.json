@@ -15,18 +15,6 @@
     "entity_type": "node",
     "bundle": "products",
     "deleted": "0",
-    "entity_id": "83",
-    "revision_id": "83",
-    "language": "und",
-    "delta": "0",
-    "field_sharecorptv_fid": "1468",
-    "field_sharecorptv_display": "1",
-    "field_sharecorptv_description": ""
-  },
-  {
-    "entity_type": "node",
-    "bundle": "products",
-    "deleted": "0",
     "entity_id": "86",
     "revision_id": "86",
     "language": "und",
