@@ -1167,18 +1167,6 @@
         "entity_type": "node",
         "bundle": "products",
         "deleted": "0",
-        "entity_id": "329",
-        "revision_id": "329",
-        "language": "und",
-        "delta": "0",
-        "field_product_label_fid": "693",
-        "field_product_label_display": "1",
-        "field_product_label_description": ""
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
         "entity_id": "330",
         "revision_id": "330",
         "language": "und",
@@ -1400,18 +1388,6 @@
         "language": "und",
         "delta": "0",
         "field_product_label_fid": "2862",
-        "field_product_label_display": "1",
-        "field_product_label_description": ""
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
-        "entity_id": "356",
-        "revision_id": "356",
-        "language": "und",
-        "delta": "0",
-        "field_product_label_fid": "2569",
         "field_product_label_display": "1",
         "field_product_label_description": ""
     },
@@ -2403,18 +2379,6 @@
         "entity_type": "node",
         "bundle": "products",
         "deleted": "0",
-        "entity_id": "460",
-        "revision_id": "460",
-        "language": "und",
-        "delta": "0",
-        "field_product_label_fid": "2564",
-        "field_product_label_display": "1",
-        "field_product_label_description": ""
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
         "entity_id": "462",
         "revision_id": "462",
         "language": "und",
@@ -3020,18 +2984,6 @@
         "language": "und",
         "delta": "0",
         "field_product_label_fid": "2566",
-        "field_product_label_display": "1",
-        "field_product_label_description": ""
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
-        "entity_id": "524",
-        "revision_id": "524",
-        "language": "und",
-        "delta": "0",
-        "field_product_label_fid": "3074",
         "field_product_label_display": "1",
         "field_product_label_description": ""
     },
@@ -3751,7 +3703,7 @@
         "revision_id": "597",
         "language": "und",
         "delta": "0",
-        "field_product_label_fid": "1770",
+        "field_product_label_fid": "3693",
         "field_product_label_display": "1",
         "field_product_label_description": ""
     },
@@ -3824,18 +3776,6 @@
         "language": "und",
         "delta": "0",
         "field_product_label_fid": "1793",
-        "field_product_label_display": "1",
-        "field_product_label_description": ""
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
-        "entity_id": "605",
-        "revision_id": "605",
-        "language": "und",
-        "delta": "0",
-        "field_product_label_fid": "1797",
         "field_product_label_display": "1",
         "field_product_label_description": ""
     },
@@ -4375,7 +4315,7 @@
         "revision_id": "656",
         "language": "und",
         "delta": "0",
-        "field_product_label_fid": "2560",
+        "field_product_label_fid": "3689",
         "field_product_label_display": "1",
         "field_product_label_description": ""
     },
@@ -5055,30 +4995,6 @@
         "entity_type": "node",
         "bundle": "products",
         "deleted": "0",
-        "entity_id": "794",
-        "revision_id": "794",
-        "language": "und",
-        "delta": "0",
-        "field_product_label_fid": "3002",
-        "field_product_label_display": "1",
-        "field_product_label_description": ""
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
-        "entity_id": "795",
-        "revision_id": "795",
-        "language": "und",
-        "delta": "0",
-        "field_product_label_fid": "3010",
-        "field_product_label_display": "1",
-        "field_product_label_description": ""
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
         "entity_id": "796",
         "revision_id": "796",
         "language": "und",
@@ -5191,7 +5107,7 @@
         "revision_id": "818",
         "language": "und",
         "delta": "0",
-        "field_product_label_fid": "3403",
+        "field_product_label_fid": "3695",
         "field_product_label_display": "1",
         "field_product_label_description": ""
     },
@@ -5288,6 +5204,18 @@
         "language": "und",
         "delta": "0",
         "field_product_label_fid": "3573",
+        "field_product_label_display": "1",
+        "field_product_label_description": ""
+    },
+    {
+        "entity_type": "node",
+        "bundle": "products",
+        "deleted": "0",
+        "entity_id": "840",
+        "revision_id": "840",
+        "language": "und",
+        "delta": "0",
+        "field_product_label_fid": "3710",
         "field_product_label_display": "1",
         "field_product_label_description": ""
     }

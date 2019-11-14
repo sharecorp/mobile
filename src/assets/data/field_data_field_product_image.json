@@ -3349,20 +3349,6 @@
         "entity_type": "node",
         "bundle": "products",
         "deleted": "0",
-        "entity_id": "329",
-        "revision_id": "329",
-        "language": "und",
-        "delta": "0",
-        "field_product_image_fid": "690",
-        "field_product_image_alt": "",
-        "field_product_image_title": "",
-        "field_product_image_width": "260",
-        "field_product_image_height": "195"
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
         "entity_id": "330",
         "revision_id": "330",
         "language": "und",
@@ -3624,20 +3610,6 @@
         "field_product_image_title": "",
         "field_product_image_width": "1024",
         "field_product_image_height": "567"
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
-        "entity_id": "356",
-        "revision_id": "356",
-        "language": "und",
-        "delta": "0",
-        "field_product_image_fid": "797",
-        "field_product_image_alt": "",
-        "field_product_image_title": "",
-        "field_product_image_width": "260",
-        "field_product_image_height": "241"
     },
     {
         "entity_type": "node",
@@ -4875,20 +4847,6 @@
         "entity_type": "node",
         "bundle": "products",
         "deleted": "0",
-        "entity_id": "460",
-        "revision_id": "460",
-        "language": "und",
-        "delta": "0",
-        "field_product_image_fid": "1212",
-        "field_product_image_alt": "",
-        "field_product_image_title": "",
-        "field_product_image_width": "2560",
-        "field_product_image_height": "1920"
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
         "entity_id": "461",
         "revision_id": "461",
         "language": "und",
@@ -5682,20 +5640,6 @@
         "field_product_image_title": "",
         "field_product_image_width": "838",
         "field_product_image_height": "633"
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
-        "entity_id": "524",
-        "revision_id": "524",
-        "language": "und",
-        "delta": "0",
-        "field_product_image_fid": "1473",
-        "field_product_image_alt": "",
-        "field_product_image_title": "",
-        "field_product_image_width": "838",
-        "field_product_image_height": "505"
     },
     {
         "entity_type": "node",
@@ -6704,20 +6648,6 @@
         "field_product_image_title": "",
         "field_product_image_width": "515",
         "field_product_image_height": "558"
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
-        "entity_id": "605",
-        "revision_id": "605",
-        "language": "und",
-        "delta": "0",
-        "field_product_image_fid": "1794",
-        "field_product_image_alt": "",
-        "field_product_image_title": "",
-        "field_product_image_width": "1011",
-        "field_product_image_height": "571"
     },
     {
         "entity_type": "node",
@@ -8977,34 +8907,6 @@
         "entity_type": "node",
         "bundle": "products",
         "deleted": "0",
-        "entity_id": "794",
-        "revision_id": "794",
-        "language": "und",
-        "delta": "0",
-        "field_product_image_fid": "3006",
-        "field_product_image_alt": "",
-        "field_product_image_title": "",
-        "field_product_image_width": "1853",
-        "field_product_image_height": "529"
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
-        "entity_id": "795",
-        "revision_id": "795",
-        "language": "und",
-        "delta": "0",
-        "field_product_image_fid": "3007",
-        "field_product_image_alt": "",
-        "field_product_image_title": "",
-        "field_product_image_width": "1984",
-        "field_product_image_height": "592"
-    },
-    {
-        "entity_type": "node",
-        "bundle": "products",
-        "deleted": "0",
         "entity_id": "796",
         "revision_id": "796",
         "language": "und",
@@ -9574,5 +9476,19 @@
         "field_product_image_title": "",
         "field_product_image_width": "902",
         "field_product_image_height": "768"
+    },
+    {
+        "entity_type": "node",
+        "bundle": "products",
+        "deleted": "0",
+        "entity_id": "840",
+        "revision_id": "840",
+        "language": "und",
+        "delta": "0",
+        "field_product_image_fid": "3707",
+        "field_product_image_alt": "",
+        "field_product_image_title": "",
+        "field_product_image_width": "700",
+        "field_product_image_height": "523"
     }
 ]
