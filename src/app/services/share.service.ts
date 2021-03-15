@@ -99,10 +99,8 @@ export class ShareService {
     }
 
     cacheData(): void {
-
-
         // get products
-        var products = node
+        var products = node[2].data
             .filter(p => p.type == "products" && p.status == 1)
             // sort a > z
             .sort((a, b) => {
@@ -114,66 +112,67 @@ export class ShareService {
         this.products.next(products);
 
         // get product lines
-        var productLines = node.filter(p => p.type == "product_lines" && p.status == 1)
+        var productLines = node[2].data.filter(p => p.type == "product_lines" && p.status == 1)
             .sort((a, b) => {
                 if (a.title < b.title) return -1;
                 if (a.title > b.title) return 1;
                 return 0;
-            })
+            });
+            
         this.raw_productLines = productLines;
         this.productLines.next(productLines);
 
         // get share tv
-        this.raw_shareTv = videoUrl;
-        this.shareTv.next(videoUrl);
+        this.raw_shareTv = videoUrl[2].data;
+        this.shareTv.next(videoUrl[2].data);
 
         // get legacy share tv
-        this.raw_shareTvLegacy = shareCorpTv;
-        this.shareTvLegacy.next(shareCorpTv);
+        this.raw_shareTvLegacy = shareCorpTv[2].data;
+        this.shareTvLegacy.next(shareCorpTv[2].data);
 
         // get sharetv vid urls
-        this.raw_shareTv = videoUrl;
-        this.shareTv.next(videoUrl);
+        this.raw_shareTv = videoUrl[2].data;
+        this.shareTv.next(videoUrl[2].data);
 
         // get sharetv vid urls
-        this.raw_shareTvUrl = shareCorpTv;
-        this.shareTvUrl.next(shareCorpTv);
+        this.raw_shareTvUrl = shareCorpTv[2].data;
+        this.shareTvUrl.next(shareCorpTv[2].data);
 
         // get product line links
-        this.raw_productLineLink = fieldLink;
-        this.productLineLink.next(fieldLink);
+        this.raw_productLineLink = fieldLink[2].data;
+        this.productLineLink.next(fieldLink[2].data);
 
         // get product labels
-        this.raw_productLabel = productLabel;
-        this.productLabel.next(productLabel);
+        this.raw_productLabel = productLabel[2].data;
+        this.productLabel.next(productLabel[2].data);
 
         // get attached labels
-        this.raw_specLabel = attachedFiles;
-        this.specLabel.next(attachedFiles);
+        this.raw_specLabel = attachedFiles[2].data;
+        this.specLabel.next(attachedFiles[2].data);
 
         // get safety labels
-        this.raw_safetyLabel = sds;
-        this.safetyLabel.next(sds);
+        this.raw_safetyLabel = sds[2].data;
+        this.safetyLabel.next(sds[2].data);
 
         // get files
-        this.raw_files = files;
-        this.files.next(files);
+        this.raw_files = files[2].data;
+        this.files.next(files[2].data);
 
         // get product images
-        this.raw_productImg = prodImage;
-        this.productImg.next(prodImage);
+        this.raw_productImg = prodImage[2].data;
+        this.productImg.next(prodImage[2].data);
 
         // get product line images
-        this.raw_fieldImage = image;
-        this.fieldImage.next(image);
+        this.raw_fieldImage = image[2].data;
+        this.fieldImage.next(image[2].data);
 
         // get product categories
-        this.raw_productCategoryMappings = category;
-        this.productCategoryMappings.next(category);
+        this.raw_productCategoryMappings = category[2].data;
+        this.productCategoryMappings.next(category[2].data);
 
         // get product bodies
-        this.raw_productBody = body;
-        this.productBody.next(body);
+        this.raw_productBody = body[2].data;
+        this.productBody.next(body[2].data);
     }
 
     getProduct(id): Observable<Product> {
@@ -355,11 +354,10 @@ export class ShareService {
     }
 
     getCategories(): Observable<Category[]> {
-
         // file paths
-        this.raw_Categories = taxoTerm.filter(c => c.vid == 2);
-        this.raw_CategoriesImg = catImage;
-        let images = files;
+        this.raw_Categories = taxoTerm[2].data.filter(c => c.vid == 2);
+        this.raw_CategoriesImg = catImage[2].data;
+        let images = files[2].data;
 
         this.raw_Categories.forEach(category => {
             let imagePath = this.raw_CategoriesImg.find(categoryImage => categoryImage.entity_id == category.tid);
@@ -368,6 +366,7 @@ export class ShareService {
             }
             category.imageReference = images.find(image => image.fid == category.imageId);
         });
+        
         this.categories.next(this.raw_Categories);
         return this.categories.asObservable();
     }
