@@ -220,7 +220,11 @@ export class ShareService {
         });
 
         this.raw_productLines.forEach(pl => {
-            pl.productLinePDF = this.getProductLineLabelPDF(pl.nid);
+            if(pl.vid in productLineOverridesByNId) {
+                pl.productLinePDF = productLineOverridesByNId[pl.vid];
+            } else {
+                pl.productLinePDF = this.getProductLineLabelPDF(pl.nid);
+            }
         });
 
         return new Observable<Product[]>(observer => {
