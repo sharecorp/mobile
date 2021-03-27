@@ -363,7 +363,8 @@ export class ShareService {
 
     getCategories(): Observable<Category[]> {
         // file paths
-        this.raw_Categories = taxoTerm[2].data.filter(c => c.vid == 2);
+        const excludedCategories = [24]; // Warewash/laundry
+        this.raw_Categories = taxoTerm[2].data.filter(c => c.vid == 2 && !excludedCategories.includes(c.tid));
         this.raw_CategoriesImg = catImage[2].data;
         let images = files[2].data;
 
@@ -374,7 +375,7 @@ export class ShareService {
             }
             category.imageReference = images.find(image => image.fid == category.imageId);
         });
-        
+
         this.categories.next(this.raw_Categories);
         return this.categories.asObservable();
     }
