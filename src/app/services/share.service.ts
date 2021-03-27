@@ -201,7 +201,11 @@ export class ShareService {
     }
 
     getProductLines(): Observable<Product[]> {
-        var productLineIds = this.raw_productLines.map(pl => pl.nid);
+        // Mobile specific overrides for product line PDFS
+        const productLineOverridesByNId = {
+            "13" : "hercules.pdf", // hercules
+            "724" : "" // ORS nasco
+        }
 
         // GET ONLY ACTIVE PRODUCT LINKS
         var activeProductLineEntityIds = this.raw_productLineLink.map(pl => pl.entity_id);
