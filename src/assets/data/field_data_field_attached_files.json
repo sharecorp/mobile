@@ -1,5 +1,5 @@
 [
-{"type":"header","version":"4.9.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"field_data_field_attached_files","database":"wearefam_drpl1","data":
 [
@@ -359,7 +359,6 @@
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"640","revision_id":"640","language":"und","delta":"0","field_attached_files_fid":"2432","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"641","revision_id":"641","language":"und","delta":"0","field_attached_files_fid":"1942","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"642","revision_id":"642","language":"und","delta":"0","field_attached_files_fid":"1946","field_attached_files_display":"1","field_attached_files_description":""},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"643","revision_id":"643","language":"und","delta":"0","field_attached_files_fid":"1950","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"644","revision_id":"644","language":"und","delta":"0","field_attached_files_fid":"1954","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"645","revision_id":"645","language":"und","delta":"0","field_attached_files_fid":"2584","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"646","revision_id":"646","language":"und","delta":"0","field_attached_files_fid":"1962","field_attached_files_display":"1","field_attached_files_description":""},
@@ -439,7 +438,6 @@
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"818","revision_id":"818","language":"und","delta":"0","field_attached_files_fid":"4445","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"819","revision_id":"819","language":"und","delta":"0","field_attached_files_fid":"3580","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"822","revision_id":"822","language":"und","delta":"0","field_attached_files_fid":"3416","field_attached_files_display":"1","field_attached_files_description":""},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"824","revision_id":"824","language":"und","delta":"0","field_attached_files_fid":"3420","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"825","revision_id":"825","language":"und","delta":"0","field_attached_files_fid":"3583","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"826","revision_id":"826","language":"und","delta":"0","field_attached_files_fid":"3582","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"827","revision_id":"827","language":"und","delta":"0","field_attached_files_fid":"3439","field_attached_files_display":"1","field_attached_files_description":""},
@@ -456,7 +454,8 @@
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"843","revision_id":"843","language":"und","delta":"0","field_attached_files_fid":"4408","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"847","revision_id":"847","language":"und","delta":"0","field_attached_files_fid":"4461","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"848","revision_id":"848","language":"und","delta":"0","field_attached_files_fid":"4471","field_attached_files_display":"1","field_attached_files_description":""},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"850","revision_id":"850","language":"und","delta":"0","field_attached_files_fid":"4483","field_attached_files_display":"1","field_attached_files_description":""}
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"850","revision_id":"850","language":"und","delta":"0","field_attached_files_fid":"4483","field_attached_files_display":"1","field_attached_files_description":""},
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"852","revision_id":"852","language":"und","delta":"0","field_attached_files_fid":"4509","field_attached_files_display":"1","field_attached_files_description":""}
 ]
 }
 ]

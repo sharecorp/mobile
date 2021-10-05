@@ -1,5 +1,5 @@
 [
-{"type":"header","version":"4.9.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"field_data_field_image","database":"wearefam_drpl1","data":
 [

@@ -1,5 +1,5 @@
 [
-{"type":"header","version":"4.9.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"field_data_field_product_label","database":"wearefam_drpl1","data":
 [
@@ -339,7 +339,6 @@
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"640","revision_id":"640","language":"und","delta":"0","field_product_label_fid":"3253","field_product_label_display":"1","field_product_label_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"641","revision_id":"641","language":"und","delta":"0","field_product_label_fid":"1944","field_product_label_display":"1","field_product_label_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"642","revision_id":"642","language":"und","delta":"0","field_product_label_fid":"3365","field_product_label_display":"1","field_product_label_description":""},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"643","revision_id":"643","language":"und","delta":"0","field_product_label_fid":"1952","field_product_label_display":"1","field_product_label_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"644","revision_id":"644","language":"und","delta":"0","field_product_label_fid":"3331","field_product_label_display":"1","field_product_label_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"645","revision_id":"645","language":"und","delta":"0","field_product_label_fid":"3064","field_product_label_display":"1","field_product_label_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"646","revision_id":"646","language":"und","delta":"0","field_product_label_fid":"1964","field_product_label_display":"1","field_product_label_description":""},
@@ -430,7 +429,9 @@
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"842","revision_id":"842","language":"und","delta":"0","field_product_label_fid":"4395","field_product_label_display":"1","field_product_label_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"843","revision_id":"843","language":"und","delta":"0","field_product_label_fid":"4409","field_product_label_display":"1","field_product_label_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"846","revision_id":"846","language":"und","delta":"0","field_product_label_fid":"4458","field_product_label_display":"1","field_product_label_description":""},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"850","revision_id":"850","language":"und","delta":"0","field_product_label_fid":"4474","field_product_label_display":"1","field_product_label_description":""}
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"850","revision_id":"850","language":"und","delta":"0","field_product_label_fid":"4474","field_product_label_display":"1","field_product_label_description":""},
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"852","revision_id":"852","language":"und","delta":"0","field_product_label_fid":"4510","field_product_label_display":"1","field_product_label_description":""},
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"853","revision_id":"853","language":"und","delta":"0","field_product_label_fid":"4519","field_product_label_display":"1","field_product_label_description":""}
 ]
 }
 ]

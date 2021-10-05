@@ -1,5 +1,5 @@
 [
-{"type":"header","version":"4.9.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"taxonomy_term_data","database":"wearefam_drpl1","data":
 [
@@ -528,7 +528,10 @@
 {"tid":"523","vid":"4","name":"Premium Extreme Pressure Hi-Temperature Multi-Purpose Grease","description":null,"format":null,"weight":"0"},
 {"tid":"524","vid":"4","name":"Long Lasting Biostatic Surface Protectant","description":null,"format":null,"weight":"0"},
 {"tid":"525","vid":"4","name":"All-Steel Aerosol Storage Cabinets","description":null,"format":null,"weight":"0"},
-{"tid":"526","vid":"4","name":"Powerful Clear Solvent Degreaser","description":null,"format":null,"weight":"0"}
+{"tid":"526","vid":"4","name":"Powerful Clear Solvent Degreaser","description":null,"format":null,"weight":"0"},
+{"tid":"527","vid":"4","name":"Powdered Laundry Compound","description":null,"format":null,"weight":"0"},
+{"tid":"528","vid":"4","name":"Diesel Fuel Performance Conditioner","description":null,"format":null,"weight":"0"},
+{"tid":"529","vid":"4","name":"Hand Soap Dispenser","description":null,"format":null,"weight":"0"}
 ]
 }
 ]
