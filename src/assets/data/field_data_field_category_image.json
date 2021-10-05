@@ -1,5 +1,5 @@
 [
-{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"4.9.7","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"field_data_field_category_image","database":"wearefam_drpl1","data":
 [
@@ -17,7 +17,6 @@
 {"entity_type":"taxonomy_term","bundle":"product_category","deleted":"0","entity_id":"12","revision_id":"12","language":"und","delta":"0","field_category_image_fid":"1440","field_category_image_alt":"","field_category_image_title":"","field_category_image_width":"400","field_category_image_height":"400"},
 {"entity_type":"taxonomy_term","bundle":"product_category","deleted":"0","entity_id":"13","revision_id":"13","language":"und","delta":"0","field_category_image_fid":"1449","field_category_image_alt":"","field_category_image_title":"","field_category_image_width":"400","field_category_image_height":"400"},
 {"entity_type":"taxonomy_term","bundle":"product_category","deleted":"0","entity_id":"14","revision_id":"14","language":"und","delta":"0","field_category_image_fid":"1451","field_category_image_alt":"","field_category_image_title":"","field_category_image_width":"400","field_category_image_height":"400"},
-{"entity_type":"taxonomy_term","bundle":"product_category","deleted":"0","entity_id":"15","revision_id":"15","language":"und","delta":"0","field_category_image_fid":"1465","field_category_image_alt":"","field_category_image_title":"","field_category_image_width":"400","field_category_image_height":"400"},
 {"entity_type":"taxonomy_term","bundle":"product_category","deleted":"0","entity_id":"16","revision_id":"16","language":"und","delta":"0","field_category_image_fid":"1462","field_category_image_alt":"","field_category_image_title":"","field_category_image_width":"400","field_category_image_height":"400"},
 {"entity_type":"taxonomy_term","bundle":"product_category","deleted":"0","entity_id":"17","revision_id":"17","language":"und","delta":"0","field_category_image_fid":"1450","field_category_image_alt":"","field_category_image_title":"","field_category_image_width":"400","field_category_image_height":"400"},
 {"entity_type":"taxonomy_term","bundle":"product_category","deleted":"0","entity_id":"18","revision_id":"18","language":"und","delta":"0","field_category_image_fid":"1891","field_category_image_alt":"","field_category_image_title":"","field_category_image_width":"400","field_category_image_height":"400"},

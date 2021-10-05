@@ -1,5 +1,5 @@
 [
-{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"4.9.7","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"field_data_field_product_category","database":"wearefam_drpl1","data":
 [
@@ -23,7 +23,6 @@
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"78","revision_id":"78","language":"und","delta":"0","field_product_category_tid":"3"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"79","revision_id":"79","language":"und","delta":"0","field_product_category_tid":"3"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"79","revision_id":"79","language":"und","delta":"1","field_product_category_tid":"7"},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"80","revision_id":"80","language":"und","delta":"0","field_product_category_tid":"3"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"81","revision_id":"81","language":"und","delta":"0","field_product_category_tid":"3"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"84","revision_id":"84","language":"und","delta":"0","field_product_category_tid":"3"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"86","revision_id":"86","language":"und","delta":"0","field_product_category_tid":"7"},
@@ -334,9 +333,7 @@
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"442","revision_id":"442","language":"und","delta":"0","field_product_category_tid":"7"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"442","revision_id":"442","language":"und","delta":"1","field_product_category_tid":"17"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"443","revision_id":"443","language":"und","delta":"0","field_product_category_tid":"17"},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"444","revision_id":"444","language":"und","delta":"0","field_product_category_tid":"17"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"445","revision_id":"445","language":"und","delta":"0","field_product_category_tid":"17"},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"446","revision_id":"446","language":"und","delta":"0","field_product_category_tid":"17"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"447","revision_id":"447","language":"und","delta":"0","field_product_category_tid":"17"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"448","revision_id":"448","language":"und","delta":"0","field_product_category_tid":"7"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"448","revision_id":"448","language":"und","delta":"1","field_product_category_tid":"17"},
@@ -725,12 +722,17 @@
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"841","revision_id":"841","language":"und","delta":"0","field_product_category_tid":"14"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"842","revision_id":"842","language":"und","delta":"0","field_product_category_tid":"8"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"843","revision_id":"843","language":"und","delta":"0","field_product_category_tid":"8"},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"846","revision_id":"846","language":"und","delta":"0","field_product_category_tid":"8"},
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"846","revision_id":"846","language":"und","delta":"0","field_product_category_tid":"21"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"847","revision_id":"847","language":"und","delta":"0","field_product_category_tid":"21"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"848","revision_id":"848","language":"und","delta":"0","field_product_category_tid":"9"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"850","revision_id":"850","language":"und","delta":"0","field_product_category_tid":"22"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"852","revision_id":"852","language":"und","delta":"0","field_product_category_tid":"4"},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"853","revision_id":"853","language":"und","delta":"0","field_product_category_tid":"10"}
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"853","revision_id":"853","language":"und","delta":"0","field_product_category_tid":"10"},
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"854","revision_id":"854","language":"und","delta":"0","field_product_category_tid":"6"},
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"855","revision_id":"855","language":"und","delta":"0","field_product_category_tid":"6"},
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"856","revision_id":"856","language":"und","delta":"0","field_product_category_tid":"6"},
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"857","revision_id":"857","language":"und","delta":"0","field_product_category_tid":"4"},
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"858","revision_id":"858","language":"und","delta":"0","field_product_category_tid":"4"}
 ]
 }
 ]

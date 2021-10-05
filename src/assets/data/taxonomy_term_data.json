@@ -1,5 +1,5 @@
 [
-{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"4.9.7","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"taxonomy_term_data","database":"wearefam_drpl1","data":
 [
@@ -17,7 +17,6 @@
 {"tid":"12","vid":"2","name":"Grounds Maintenance","description":"","format":"filtered_html","weight":"0"},
 {"tid":"13","vid":"2","name":"Industrial","description":"","format":"filtered_html","weight":"0"},
 {"tid":"14","vid":"2","name":"Lubricants","description":"","format":"filtered_html","weight":"0"},
-{"tid":"15","vid":"2","name":"Mats","description":"","format":"filtered_html","weight":"0"},
 {"tid":"16","vid":"2","name":"Patching","description":"","format":"filtered_html","weight":"0"},
 {"tid":"17","vid":"2","name":"Pest Control","description":"","format":"filtered_html","weight":"0"},
 {"tid":"18","vid":"2","name":"Pool and Spa","description":"","format":"filtered_html","weight":"0"},
@@ -531,7 +530,12 @@
 {"tid":"526","vid":"4","name":"Powerful Clear Solvent Degreaser","description":null,"format":null,"weight":"0"},
 {"tid":"527","vid":"4","name":"Powdered Laundry Compound","description":null,"format":null,"weight":"0"},
 {"tid":"528","vid":"4","name":"Diesel Fuel Performance Conditioner","description":null,"format":null,"weight":"0"},
-{"tid":"529","vid":"4","name":"Hand Soap Dispenser","description":null,"format":null,"weight":"0"}
+{"tid":"529","vid":"4","name":"Hand Soap Dispenser","description":null,"format":null,"weight":"0"},
+{"tid":"530","vid":"4","name":"Total Release Odor Control","description":null,"format":null,"weight":"0"},
+{"tid":"531","vid":"4","name":"Fragrance Diffusers and Refill Cartridges","description":null,"format":null,"weight":"0"},
+{"tid":"532","vid":"4","name":"Liquid Gel Sprays","description":null,"format":null,"weight":"0"},
+{"tid":"533","vid":"4","name":"Exterior Surface Cleaner","description":null,"format":null,"weight":"0"},
+{"tid":"534","vid":"4","name":"Fabric & Upholstery Cleaner","description":null,"format":null,"weight":"0"}
 ]
 }
 ]
