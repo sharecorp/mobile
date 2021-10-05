@@ -363,7 +363,7 @@ export class ShareService {
 
     getCategories(): Observable<Category[]> {
         // file paths
-        const excludedCategories = [24]; // Warewash/laundry
+        const excludedCategories = ["24"]; // Warewash/laundry
         this.raw_Categories = taxoTerm[2].data.filter(c => c.vid == 2 && !excludedCategories.includes(c.tid));
         this.raw_CategoriesImg = catImage[2].data;
         let images = files[2].data;
