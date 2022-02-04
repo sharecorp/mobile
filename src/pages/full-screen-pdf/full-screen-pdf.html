@@ -1,0 +1,29 @@
+<!--
+  Generated template for the ModalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>PDF Label / SDS / Info</ion-title>
+    <ion-icon
+      name="close-circle"
+      style="float: right"
+      (click)="closeModal()"
+    ></ion-icon>
+  </ion-navbar>
+</ion-header>
+
+<ion-content overflow-scroll="true">
+  <div class="row">
+    <div class="col col-center">
+      <iframe
+        style="height: calc(100vh - 120px); width: 100%;"
+        class="img-center img-fullscreen"
+        width="100%"
+        [src]="pdfUrl | safe"
+      ></iframe>
+    </div>
+  </div>
+</ion-content>

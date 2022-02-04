@@ -4,6 +4,7 @@ import { ShareService } from "../../app/services/share.service";
 import { Product } from "../../app/models/models";
 import { InAppBrowser } from "@ionic-native/in-app-browser";
 import { ModalPage } from "../modal/modal";
+import { FullScreenPdf } from "../full-screen-pdf/full-screen-pdf";
 
 @Component({
   selector: "product-view",
@@ -36,9 +37,8 @@ export class ProductView {
     });
   }
 
-  // retrieves relevant pdf attachment on product
   viewPdf(url) {
-    this.inAppBrowser.create(url, "_system");
+    this.navCtrl.push(FullScreenPdf, { pdf: url });
   }
 
   enlargePicture() {
