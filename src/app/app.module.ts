@@ -21,6 +21,8 @@ import { FilterPipe } from '../pipes/filterByPipe';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { DocumentViewer } from '@ionic-native/document-viewer';
+import { FullScreenPdf } from '../pages/full-screen-pdf/full-screen-pdf';
+import { SafePipe } from '../pipes/safePipe';
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import { DocumentViewer } from '@ionic-native/document-viewer';
     ShareTv,
     HomePage,
     ModalPage,
+    SafePipe,
+    FullScreenPdf,
     TabsPage,
     ProductLines,
     ProductView,
@@ -49,6 +53,7 @@ import { DocumentViewer } from '@ionic-native/document-viewer';
     HomePage,
     ProductView,
     ModalPage,
+    FullScreenPdf,
     ProductLines,
     TabsPage
   ],
