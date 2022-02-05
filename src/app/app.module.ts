@@ -23,7 +23,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { DocumentViewer } from '@ionic-native/document-viewer';
 import { FullScreenPdf } from '../pages/full-screen-pdf/full-screen-pdf';
 import { SafePipe } from '../pipes/safePipe';
-
+import { Clipboard } from '@ionic-native/clipboard';
 
 @NgModule({
   declarations: [
@@ -61,6 +61,7 @@ import { SafePipe } from '../pipes/safePipe';
     StatusBar,
     ShareService,
     InAppBrowser,
+    Clipboard,
     SplashScreen,
     DocumentViewer,
     StreamingMedia,
