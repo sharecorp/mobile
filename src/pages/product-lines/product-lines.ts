@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { ShareService } from '../../app/services/share.service';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { FullScreenPdf } from '../full-screen-pdf/full-screen-pdf';
 
 @Component({
   selector: 'product-lines',
@@ -23,6 +24,6 @@ export class ProductLines implements OnInit {
 
   // retrieves relevant pdf attachment on product line
   getProductLine(url) {
-    this.inAppBrowser.create(url, '_system');
+    this.navCtrl.push(FullScreenPdf, { pdf: url });
   }
 }

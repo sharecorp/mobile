@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController, ModalController } from 'ionic-angular';
+import { Clipboard } from '@ionic-native/clipboard';
 
 /**
  * Generated class for the ModalPage page.
@@ -18,12 +19,17 @@ export class FullScreenPdf {
     // the passed in productId
     private pdfUrl: string;
 
-    constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController, public modalCtrl: ModalController) {
+    constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController, public modalCtrl: ModalController, private clipboard: Clipboard) {
     }
 
     ionViewDidLoad() {
-        console.log(this.navParams.data.pdf);
         this.pdfUrl = this.navParams.data.pdf;
+    }
+
+    public copyToClipBoard() {
+        const [,file] = this.pdfUrl.split("assets/data/imgs/");
+        console.log(`http://sharecorp.com/sites/default/files/${file}`);
+        this.clipboard.copy(`http://sharecorp.com/sites/default/files/${file}`);
     }
 
     public closeModal() {

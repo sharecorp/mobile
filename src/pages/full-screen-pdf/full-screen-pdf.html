@@ -6,12 +6,14 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>PDF Label / SDS / Info</ion-title>
-    <ion-icon
-      name="close-circle"
-      style="float: right"
-      (click)="closeModal()"
-    ></ion-icon>
+    <div style="display: flex">
+      <ion-title>PDF Label / SDS / Info</ion-title>
+      <div style="float: right">
+        <button ion-button (click)="copyToClipBoard(pdfUrl)" margin-right>
+          <ion-icon name="link" margin-right></ion-icon> Copy pdf link
+        </button>
+      </div>
+    </div>
   </ion-navbar>
 </ion-header>
 
@@ -19,7 +21,7 @@
   <div class="row">
     <div class="col col-center">
       <iframe
-        style="height: calc(100vh - 120px); width: 100%;"
+        style="height: calc(100vh - 120px); width: 100%"
         class="img-center img-fullscreen"
         width="100%"
         [src]="pdfUrl | safe"
