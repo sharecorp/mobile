@@ -24,6 +24,7 @@ export class ProductLines implements OnInit {
 
   // retrieves relevant pdf attachment on product line
   getProductLine(url) {
+    url = url.replace("assets/data/imgs/", "");
     this.navCtrl.push(FullScreenPdf, { pdf: url });
   }
 }

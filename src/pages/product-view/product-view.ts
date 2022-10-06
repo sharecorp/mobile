@@ -38,6 +38,7 @@ export class ProductView {
   }
 
   viewPdf(url) {
+    url = url.replace("assets/data/imgs/", "");
     this.navCtrl.push(FullScreenPdf, { pdf: url });
   }
 

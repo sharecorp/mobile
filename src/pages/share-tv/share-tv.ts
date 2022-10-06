@@ -25,7 +25,6 @@ export class ShareTv {
 
   // load video on click
   loadVideo(video): void {
-    console.error(video);
     this.inAppBrowser.create(video, "_system");
   }
 }

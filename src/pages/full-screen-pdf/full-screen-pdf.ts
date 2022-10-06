@@ -23,12 +23,12 @@ export class FullScreenPdf {
     }
 
     ionViewDidLoad() {
+        console.log(this.navParams.data.pdf)
         this.pdfUrl = this.navParams.data.pdf;
     }
 
     public copyToClipBoard() {
         const [,file] = this.pdfUrl.split("assets/data/imgs/");
-        console.log(`http://sharecorp.com/sites/default/files/${file}`);
         this.clipboard.copy(`http://sharecorp.com/sites/default/files/${file}`);
     }
 
