@@ -63,7 +63,8 @@
       "cordova-plugin-document-viewer": {},
       "cordova-plugin-inappbrowser": {},
       "cordova-plugin-streaming-media": {},
-      "cordova-clipboard": {}
+      "cordova-clipboard": {},
+      "com.hutchind.cordova.plugins.streamingmedia": {}
     },
     "platforms": [
       "android",
