@@ -1,5 +1,5 @@
 [
-{"type":"header","version":"4.9.7","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"4.9.11","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"field_data_field_attached_files","database":"wearefam_drpl1","data":
 [
@@ -433,7 +433,8 @@
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"855","revision_id":"855","language":"und","delta":"6","field_attached_files_fid":"4569","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"855","revision_id":"855","language":"und","delta":"7","field_attached_files_fid":"4570","field_attached_files_display":"1","field_attached_files_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"855","revision_id":"855","language":"und","delta":"8","field_attached_files_fid":"4571","field_attached_files_display":"1","field_attached_files_description":""},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"858","revision_id":"858","language":"und","delta":"0","field_attached_files_fid":"4574","field_attached_files_display":"1","field_attached_files_description":""}
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"858","revision_id":"858","language":"und","delta":"0","field_attached_files_fid":"4574","field_attached_files_display":"1","field_attached_files_description":""},
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"861","revision_id":"861","language":"und","delta":"0","field_attached_files_fid":"4978","field_attached_files_display":"1","field_attached_files_description":""}
 ]
 }
 ]

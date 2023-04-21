@@ -1,5 +1,5 @@
 [
-{"type":"header","version":"4.9.7","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"4.9.11","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"taxonomy_index","database":"wearefam_drpl1","data":
 [
@@ -144,7 +144,6 @@
 {"nid":"813","tid":"23","sticky":"0","created":"1533733813"},
 {"nid":"799","tid":"9","sticky":"0","created":"1515162455"},
 {"nid":"799","tid":"506","sticky":"0","created":"1515162455"},
-{"nid":"241","tid":"9","sticky":"0","created":"1460927072"},
 {"nid":"821","tid":"9","sticky":"0","created":"1556136850"},
 {"nid":"90","tid":"27","sticky":"0","created":"1460878197"},
 {"nid":"90","tid":"58","sticky":"0","created":"1460878197"},
@@ -817,8 +816,6 @@
 {"nid":"678","tid":"22","sticky":"0","created":"1461551292"},
 {"nid":"635","tid":"22","sticky":"0","created":"1461333523"},
 {"nid":"635","tid":"424","sticky":"0","created":"1461333523"},
-{"nid":"683","tid":"22","sticky":"0","created":"1461551640"},
-{"nid":"683","tid":"466","sticky":"0","created":"1461551640"},
 {"nid":"684","tid":"22","sticky":"0","created":"1461551710"},
 {"nid":"684","tid":"467","sticky":"0","created":"1461551710"},
 {"nid":"685","tid":"22","sticky":"0","created":"1461551829"},
@@ -863,7 +860,6 @@
 {"nid":"859","tid":"316","sticky":"0","created":"1647013452"},
 {"nid":"604","tid":"11","sticky":"0","created":"1461158976"},
 {"nid":"860","tid":"9","sticky":"0","created":"1648825986"},
-{"nid":"861","tid":"9","sticky":"0","created":"1648826803"},
 {"nid":"190","tid":"4","sticky":"0","created":"1460924420"},
 {"nid":"415","tid":"8","sticky":"0","created":"1460936928"},
 {"nid":"853","tid":"10","sticky":"0","created":"1617907265"},
@@ -936,7 +932,11 @@
 {"nid":"347","tid":"4","sticky":"0","created":"1460932345"},
 {"nid":"213","tid":"9","sticky":"0","created":"1460925778"},
 {"nid":"577","tid":"7","sticky":"0","created":"1461111853"},
-{"nid":"577","tid":"21","sticky":"0","created":"1461111853"}
+{"nid":"577","tid":"21","sticky":"0","created":"1461111853"},
+{"nid":"861","tid":"9","sticky":"0","created":"1648826803"},
+{"nid":"683","tid":"22","sticky":"0","created":"1461551640"},
+{"nid":"683","tid":"466","sticky":"0","created":"1461551640"},
+{"nid":"241","tid":"9","sticky":"0","created":"1460927072"}
 ]
 }
 ]

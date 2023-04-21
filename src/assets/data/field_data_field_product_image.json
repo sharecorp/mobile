@@ -1,5 +1,5 @@
 [
-{"type":"header","version":"4.9.7","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"4.9.11","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"field_data_field_product_image","database":"wearefam_drpl1","data":
 [
@@ -144,7 +144,7 @@
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"235","revision_id":"235","language":"und","delta":"0","field_product_image_fid":"3531","field_product_image_alt":"","field_product_image_title":"","field_product_image_width":"1461","field_product_image_height":"1500"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"239","revision_id":"239","language":"und","delta":"0","field_product_image_fid":"3533","field_product_image_alt":"","field_product_image_title":"","field_product_image_width":"1500","field_product_image_height":"651"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"240","revision_id":"240","language":"und","delta":"0","field_product_image_fid":"3534","field_product_image_alt":"","field_product_image_title":"","field_product_image_width":"1500","field_product_image_height":"1026"},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"241","revision_id":"241","language":"und","delta":"0","field_product_image_fid":"3413","field_product_image_alt":"","field_product_image_title":"","field_product_image_width":"477","field_product_image_height":"1200"},
+{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"241","revision_id":"241","language":"und","delta":"0","field_product_image_fid":"4988","field_product_image_alt":"","field_product_image_title":"","field_product_image_width":"1200","field_product_image_height":"1148"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"242","revision_id":"242","language":"und","delta":"0","field_product_image_fid":"3535","field_product_image_alt":"","field_product_image_title":"","field_product_image_width":"1500","field_product_image_height":"1038"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"245","revision_id":"245","language":"und","delta":"0","field_product_image_fid":"3537","field_product_image_alt":"","field_product_image_title":"","field_product_image_width":"1500","field_product_image_height":"789"},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"246","revision_id":"246","language":"und","delta":"0","field_product_image_fid":"482","field_product_image_alt":"","field_product_image_title":"","field_product_image_width":"260","field_product_image_height":"210"},
