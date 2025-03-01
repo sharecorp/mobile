@@ -1,9 +1,8 @@
 [
-{"type":"header","version":"4.9.11","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"field_data_field_video_url","database":"wearefam_drpl1","data":
 [
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"179","revision_id":"179","language":"und","delta":"0","field_video_url_value":"http:\/\/video.sharecorp.com\/hiq.php?id=36","field_video_url_format":null},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"183","revision_id":"183","language":"und","delta":"0","field_video_url_value":"http:\/\/video.sharecorp.com\/hiq.php?id=2","field_video_url_format":null},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"254","revision_id":"254","language":"und","delta":"0","field_video_url_value":"http:\/\/video.sharecorp.com\/hiq.php?id=6","field_video_url_format":null},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"261","revision_id":"261","language":"und","delta":"0","field_video_url_value":"http:\/\/video.sharecorp.com\/hiq.php?id=37","field_video_url_format":null},

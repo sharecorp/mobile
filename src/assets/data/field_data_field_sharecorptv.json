@@ -1,11 +1,10 @@
 [
-{"type":"header","version":"4.9.11","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
 {"type":"database","name":"wearefam_drpl1"},
 {"type":"table","name":"field_data_field_sharecorptv","database":"wearefam_drpl1","data":
 [
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"79","revision_id":"79","language":"und","delta":"0","field_sharecorptv_fid":"4676","field_sharecorptv_display":"1","field_sharecorptv_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"86","revision_id":"86","language":"und","delta":"0","field_sharecorptv_fid":"1467","field_sharecorptv_display":"1","field_sharecorptv_description":""},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"179","revision_id":"179","language":"und","delta":"0","field_sharecorptv_fid":"1120","field_sharecorptv_display":"1","field_sharecorptv_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"183","revision_id":"183","language":"und","delta":"0","field_sharecorptv_fid":"1119","field_sharecorptv_display":"1","field_sharecorptv_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"254","revision_id":"254","language":"und","delta":"0","field_sharecorptv_fid":"1118","field_sharecorptv_display":"1","field_sharecorptv_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"261","revision_id":"261","language":"und","delta":"0","field_sharecorptv_fid":"1117","field_sharecorptv_display":"1","field_sharecorptv_description":""},
@@ -24,7 +23,6 @@
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"376","revision_id":"376","language":"und","delta":"0","field_sharecorptv_fid":"4691","field_sharecorptv_display":"1","field_sharecorptv_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"382","revision_id":"382","language":"und","delta":"0","field_sharecorptv_fid":"1107","field_sharecorptv_display":"1","field_sharecorptv_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"383","revision_id":"383","language":"und","delta":"0","field_sharecorptv_fid":"1108","field_sharecorptv_display":"1","field_sharecorptv_description":""},
-{"entity_type":"node","bundle":"products","deleted":"0","entity_id":"384","revision_id":"384","language":"und","delta":"0","field_sharecorptv_fid":"1106","field_sharecorptv_display":"1","field_sharecorptv_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"390","revision_id":"390","language":"und","delta":"0","field_sharecorptv_fid":"1105","field_sharecorptv_display":"1","field_sharecorptv_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"405","revision_id":"405","language":"und","delta":"0","field_sharecorptv_fid":"4687","field_sharecorptv_display":"1","field_sharecorptv_description":""},
 {"entity_type":"node","bundle":"products","deleted":"0","entity_id":"413","revision_id":"413","language":"und","delta":"0","field_sharecorptv_fid":"1103","field_sharecorptv_display":"1","field_sharecorptv_description":""},
